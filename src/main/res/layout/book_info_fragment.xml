@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Títol: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+            <TextView
+                android:textSize="20dp"
+                android:maxLines="3"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/bookNameShow"
+             />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text=""
+                android:id="@+id/bookAuthorShow"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editorial: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text=""
+                android:id="@+id/bookPublisherShow"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/bookYearShow"
+                />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoria: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="monospace"
+                android:layout_width="match_parent"
+                android:maxLines="2"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/bookCategoryShow"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valoració Personal: "
+                android:textStyle="bold"
+                android:textSize="22dp"/>
+
+        <EditText
+            android:textSize="19dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:maxLines="8"
+            android:editable="false"
+            android:id="@+id/bookValorationShow"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:onClick="onModifyItemPressed"
+        android:text="Modifica Valoració"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_edit" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:onClick="onEliminaLlibreButtonPressed"
+        android:text="Elimina el llibre"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_delete" />
+</RelativeLayout>
+
+

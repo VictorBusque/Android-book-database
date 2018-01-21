@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation ="vertical"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pr_idi.mydatabaseexample.HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="torna"
+            android:onClick="onClick"
+            android:drawableStart="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELP"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="Com puc obrir el menú de l'app?"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Prement la icona d'hamburguesa de l'extrem superior esquerra, o arrossegant des de l'extrem esquerra de la pantalla."
+
+        android:textSize="15dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="Com puc afegir llibres?"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Obrint el menú i fent un toc a la opció 'Afegir llibre'."
+
+        android:textSize="15dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="Com puc veure info d'un llibre?"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Seleccionant un llibre al Llistat de llibres o a la Cerca per autor."
+        android:textSize="15dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:fontFamily="monospace"
+    android:text="Com puc eliminar llibres?"
+    android:textStyle="bold|italic"
+    android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Des de la pantalla d'informació del llibre, fent un toc al botó d'eliminar."
+        android:textSize="15dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="Com puc valorar llibres?"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Des de la pantalla d'informació del llibre, fent un toc al botó de modificar valoració."
+        android:textSize="15dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+
+</LinearLayout>

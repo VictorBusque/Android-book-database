@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Els meus llibres</string>
+    <string name="drawer_open">Obrir navigation Drawer</string>
+    <string name="drawer_close">Tancar navigation drawer</string>
+    <string name="spin">Spin</string>
+    <string name="version">Versió 12.0</string>
+    <string-array name="ItemsNav">
+        <item>Llista de llibres</item>
+        <item>Cerca per autor</item>
+        <item>Afegir llibre</item>
+        <item>Llibres per categoria</item>
+        <!--<item>List of Books</item>-->
+    </string-array>
+    <string-array name="spinnerItems">
+        <item>Molt bo</item>
+        <item>Bo</item>
+        <item>Regular</item>
+        <item>Dolent</item>
+        <item>Molt Dolent</item>
+    </string-array>
+
+
+</resources>
